@@ -10,16 +10,16 @@
     .photo-grid {
         margin: 0 48px 0;
     }
-  }
+}
 
-  @media screen and (max-width: 984px) {
+@media screen and (max-width: 984px) {
     .photo-grid {
         margin: 0 24px 0;
     }
-  }
+}
 
-  @media screen and (max-width: 568px) {
+@media screen and (max-width: 568px) {
     .photo-grid {
         margin: 0 16px 0;
     }
-  } 
+}

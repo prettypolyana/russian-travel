@@ -7,16 +7,16 @@
     .places {
         margin: 92px 48px 0;
     }
-  }
+}
 
-  @media screen and (max-width: 984px) {
+@media screen and (max-width: 984px) {
     .places {
         margin: 88px 24px 0;
     }
-  }
+}
 
-  @media screen and (max-width: 568px) {
+@media screen and (max-width: 568px) {
     .places {
         margin: 64px 16px 0;
     }
-  } 
+}
