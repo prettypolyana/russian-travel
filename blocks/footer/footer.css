@@ -7,3 +7,26 @@
     margin: 92px auto 0;
     padding: 0 0 24px;
 }
+
+@media  screen and (max-width: 1186px) {
+    .footer {
+        margin: 92px 8px 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .footer { flex-direction: column;
+    justify-content: flex-start;
+    gap: 48px;
+    margin: 92px 16px 0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 48px;
+        margin: 92px 16px 0;
+    }
+}

@@ -7,7 +7,7 @@
     color: #fff;
     text-align: center;
     margin: 0 auto 64px;
-    width: 640px;
+    max-width: 640px;
 }
 
 @media screen and (max-width: 1140px) {
@@ -22,8 +22,17 @@
     }
   }
 
-  @media screen and (max-width: 568x) {
+   @media screen and (max-width: 700px) {
+    .lead__subtitle {
+        font-size: 24px;
+    }
+  } 
+
+  @media screen and (max-width: 568px) {
     .lead__subtitle {
         margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 288px;
     }
   }

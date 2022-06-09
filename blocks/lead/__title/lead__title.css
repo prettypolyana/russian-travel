@@ -21,8 +21,17 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .lead__title {
+        font-size: 80px;
+    }
+}
+
 @media screen and (max-width: 568px) {
     .lead__title {
         margin-top: 48px;
+        margin-bottom: 16px;
+        font-size: 40px;
+        line-height: 44px;
     }
 }
