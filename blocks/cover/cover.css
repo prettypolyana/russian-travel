@@ -5,15 +5,14 @@
     font-family: "Inter", sans-serif;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1184px) {
     .cover {
-        margin-top: 90px;
         height: 640px;
     }
 }
 
-@media screen and (max-width: 1140px) {
-    .cover { 
+@media screen and (max-width: 984px) {
+    .cover {
         height: 480px;
     }
 }

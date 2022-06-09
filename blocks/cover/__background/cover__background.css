@@ -1,6 +1,7 @@
 .cover__background {
     background-image: url(../../../images/to-baikal.png);
     background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100%;
     display: flex;
@@ -10,6 +11,7 @@
     text-decoration: none;
     position: relative;
     z-index: 1;
+    box-sizing: border-box;
 }
 
 .cover__background::before {
@@ -30,7 +32,7 @@
 }
 
 @media screen and (max-width: 568px) {
-    .cover__title {
-        max-width: 320px;
+    .cover__background {
+        padding: 33px 16px;
     }
 }
