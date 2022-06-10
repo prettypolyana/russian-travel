@@ -50,7 +50,7 @@
 @import url(../blocks/cover/__link/cover__link.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/content/__footer/content__footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
