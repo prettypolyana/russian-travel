@@ -8,3 +8,9 @@
     max-width: 690px;
     margin: 40px 0 0;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        max-width: 100%;
+    }
+}
